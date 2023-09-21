@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Merriweather+Sans:ital,wght@1,800&family=RocknRoll+One&display=swap');
+
+.navbar_container {
+    background-color: black;
+    height:max-content;
+    padding-top: 0.3rem;
+}
+
+.navbar_main{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar_title {
+    color: white;
+    font-family: 'RocknRoll One', sans-serif;
+    margin: 1.5rem 0 0.5rem 0.9rem;
+    font-size: 0.8rem;
+}
+
+.navbar_drawer {
+    
+}

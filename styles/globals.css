@@ -1,5 +1,9 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+:root {
+  --navbar_height_mweb: 10vmax; 
 }

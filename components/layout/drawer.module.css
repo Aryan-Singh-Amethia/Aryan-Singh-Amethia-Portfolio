@@ -1,0 +1,7 @@
+.navbar_hamburger{
+    margin: 0.9rem 0 0 0.3rem;
+}
+
+.navbar_hamburger:active{
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
