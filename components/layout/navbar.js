@@ -11,7 +11,7 @@ const Navbar = () => {
               {<Drawer/>}
             </div>
             <div className={classes.navbar_title}>
-               <h1>ARYAN SINGH AMETHIA</h1>
+              <h1>Aryan Singh Amethia</h1>
             </div>
         </nav>
     </header>

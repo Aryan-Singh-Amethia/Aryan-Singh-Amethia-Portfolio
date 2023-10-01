@@ -67,9 +67,9 @@ const NavDrawer = () => {
           <Button className={classes.navbar_hamburger}
              onClick={toggleDrawer(DRAWER_ANCHOR, true)}>
               <Image 
-                src={'/porfolio-hamburger-icon.png'}
-                width={50}
-                height={40}
+                src={'/hamburger_v4.png'}
+                width={20}
+                height={20}
                 alt='hamburger icon on Navbar'/>
           </Button>
           <Drawer

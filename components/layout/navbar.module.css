@@ -1,21 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Merriweather+Sans:ital,wght@1,800&family=RocknRoll+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Merriweather+Sans:ital,wght@1,800&family=Permanent+Marker&display=swap');
 .navbar_container {
     background-color: black;
     height:max-content;
-    padding-top: 0.3rem;
+    width: 100%;
 }
 
 .navbar_main{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     flex-direction: row;
 }
 
 .navbar_title {
     color: white;
-    font-family: 'RocknRoll One', sans-serif;
-    margin: 1.5rem 0 0.5rem 0.9rem;
+    font-family: 'Permanent Marker', cursive;
+    margin: 1rem 0.9rem 0.5rem 0;
     font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .navbar_drawer {

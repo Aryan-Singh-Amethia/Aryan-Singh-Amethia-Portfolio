@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Merriweather+Sans:ital,wght@1,800&display=swap');
+
+.about_container{
+    background-color: black;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about_wrapper{
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3em;
+}
