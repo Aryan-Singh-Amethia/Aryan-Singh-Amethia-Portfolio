@@ -1,0 +1,25 @@
+/* .skills_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.skills_container{
+    height: 60vh;
+    width: 100%;
+    position: relative;
+    /* right: 50vw; */
+    background-color: black;
+    display: flex;
+}
+
+.skills_text{
+    height: 100%;
+    flex:1;
+}
+
+.skills_wheel{
+    height: 100%;
+    position: relative;
+    right:50vh;
+}
