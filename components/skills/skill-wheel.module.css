@@ -1,0 +1,17 @@
+.container{
+    height: 60vh;
+    width: 100%;
+    position: relative;
+    /* margin-top: 12vh; */
+    /* z-index: -1; */
+    right: 50vw;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.skills>h2{
+    color: green;
+    background-color: yellow;
+    font-size: 10remx;
+}
