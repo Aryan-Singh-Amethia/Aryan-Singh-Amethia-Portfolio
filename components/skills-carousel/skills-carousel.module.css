@@ -21,7 +21,7 @@
 .carousel_logos{
     display: inline-flex;
     overflow: hidden;
-    animation: 45s slide infinite linear;
+    animation: 35s slide infinite linear;
 }
 
 .carousel_logos img{

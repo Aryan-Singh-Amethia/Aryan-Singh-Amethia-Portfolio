@@ -22,26 +22,16 @@ const SKILL_LOGOS = [
 ];
 
 const SkillsCarousel = () => {
-  let my_skills = SKILL_LOGOS.map((skill) => (
-    <div key={skill} className='skill_image_card' style={{ height: "100%", width: "25%", margin: "0 1.5em 0 1.5em" }}>
+  let my_skills = SKILL_LOGOS.concat(SKILL_LOGOS).map((skill,index) => (
+    <div key={index} className='skill_image_card' style={{ height: "100%", width: "25%", margin: "0 1.5em 0 1.5em" }}>
       <img src={"/skills/" + skill} alt={skill} />
     </div>
   ));
 
-  // useEffect(()=>{
-  //   const cards = document.querySelectorAll(".skill_image_card");
-
-  //   const observer = new IntersectionObserver(entries =>{
-  //     console.log(entries);
-  //   });
-  
-  //   observer.observe(cards[0]);
-  // });
-
   return (
     <div className={styles.skills_carousel_container}>
       <div className={styles.carousel_logos}>
-        {my_skills.concat(my_skills).map(skill=>(skill))}
+        {my_skills.map(skill=>(skill))}
       </div>
     </div>
   );
