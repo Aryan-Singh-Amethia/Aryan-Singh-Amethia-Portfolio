@@ -12,8 +12,9 @@ const About = () => {
   return (
     <div className={classes.about_container}>   
       <span className={classes.about_wrapper}>
-        {`<  ${text}  >`}
+        {`<  ${text}`} 
         <Cursor cursorColor="white" cursorStyle={'|'}/> 
+        {` >`}
       </span>
     </div>
   );

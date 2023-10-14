@@ -2,7 +2,8 @@ import React from 'react';
 import Card from './card';
 
 class Wheel extends React.Component {
-    constructor(props) {
+    
+    constructor(props) {        
         super(props)
 
         this.state = {
@@ -59,10 +60,10 @@ const styles = {
         top: '50%',
         left: '50%',
         transform: 'translate(-50%, -50%)',
-        height: '100px',
-        width: '100px',
+        height: '3vh',
+        width: '3vh',
         backgroundColor: 'red',
-        borderRadius: '50px'
+        borderRadius: '1.5vh'
     }
 }
 

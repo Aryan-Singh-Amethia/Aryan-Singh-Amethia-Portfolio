@@ -33,8 +33,8 @@ const styles = {
         left: '50%',
         top: '50%',
         transform: 'translate(-50%, -50%)',
-        height: '30vw',
-        width: '30vw',
+        height: '12vh',
+        width: '12vh ',
         backgroundColor: 'blue',
         borderRadius: '100%'
     }

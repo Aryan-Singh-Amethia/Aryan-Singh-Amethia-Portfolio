@@ -7,7 +7,6 @@ const SkillWheel = () => {
   return (
     <div className={styles.skills}>
       <WheelConatiner/>
-      <Text/>
     </div>
   );
 
@@ -16,18 +15,9 @@ const SkillWheel = () => {
 const WheelConatiner = () =>{
   return ( 
     <div className={styles.container}>
-       <Wheel/>
+       {/* <Wheel/> */}
     </div>
   )
 }
-
-const Text = () => {
-  return(
-    <div className={styles.skills_text}>
-         <h2>SKILLS</h2>
-    </div>);
-}
-
-
 
 export default SkillWheel;
