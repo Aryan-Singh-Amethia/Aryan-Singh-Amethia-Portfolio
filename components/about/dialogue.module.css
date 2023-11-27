@@ -2,6 +2,7 @@
 
 .dialogue_container{
     height: 25vh;
+    width: 50%;
     background-color: #FFFFDD;
     padding: 1rem;
 }
@@ -22,4 +23,10 @@
     text-align: center;
     font-weight: bold;
     font-size: 1.2em;
+}
+
+@media (width < 768px) {
+    .dialogue_container{
+        width: 100%;
+    } 
 }

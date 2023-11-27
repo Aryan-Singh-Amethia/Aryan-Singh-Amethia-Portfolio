@@ -1,27 +1,92 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Merriweather+Sans:ital,wght@1,800&family=Permanent+Marker&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Merriweather+Sans:ital,wght@1,800&family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
 .navbar_container {
-    background-color: black;
-    height:max-content;
-    width: 100%;
+  height: 8vh;
+  width: 100%;
+  background-color: black;
+  padding: 0;
 }
 
-.navbar_main{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
+.navbar_main {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  padding: inherit;
 }
 
 .navbar_title {
-    color: white;
-    font-family: 'Permanent Marker', cursive;
-    margin: 1rem 0.9rem 0.5rem 0;
-    font-size: 0.8rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  color: white;
+  font-family: "Permanent Marker", cursive;
+  margin: 1rem 0.9rem 0.5rem 0;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navbar_drawer {
-    
+  display: none;
+}
+
+.navbar_options {
+  color: #7D7C7C    ;
+  font-family: "Montserrat", sans-serif;
+  margin: 1em 0 0.3em 2em;
+}
+
+.navbar_options:hover{
+    color: white;
+    border-bottom: 2.5px solid white;
+    cursor: pointer;
+}
+
+.navbar_options_container {
+  width: 35%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin-left: 3em;
+}
+
+.navbar_signature_icon{
+    margin: 5% 0 0 50%;
+    position: absolute;
+}
+
+.navbar_socials_container{
+    margin : 0 10% 0 auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.navbar_social_container{
+    border-radius: 50%;
+    margin: 1em 1em 0 1em;
+    position: relative;
+    width: 35px;
+    height: 35px;
+    background-color: whitesmoke;
+}
+
+@media (width <= 768px) {
+  .navbar_drawer {
+    display: block;
+  }
+
+  .navbar_options {
+    display: none;
+  }
+
+  .navbar_signature_icon{
+    display: none;
+  }
+
+  .navbar_socials_container{
+    display: none;
+  }
 }

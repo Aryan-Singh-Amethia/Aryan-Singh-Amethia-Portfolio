@@ -1,30 +1,36 @@
-.skills_carousel_container{
-    height: max-content;
-    width: 100%;
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    overflow: hidden;
-    padding: 1em 0 1em 0;
+.skills_carousel_container {
+  height: max-content;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  padding: 1em 0 1em 0;
 }
 
 @keyframes slide {
-    from{
-       transform: translateX(0);     
-    }
-    to{
-        transform: translateX(calc(10em*9*-1));
-    }   
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(10em * 9 * -1));
+  }
+}
+  
+.carousel_logos {
+  display: inline-flex;
+  overflow: hidden;
+  animation: 35s slide infinite linear;
 }
 
-.carousel_logos{
-    display: inline-flex;
-    overflow: hidden;
-    animation: 35s slide infinite linear;
+.carousel_logos:hover{
+  animation-play-state: paused;
 }
 
-.carousel_logos img{
-    width: 7em;
-    height: 7em;
+.carousel_logos img {
+  width: 7em;
+  height: 7em;
 }
+
+
