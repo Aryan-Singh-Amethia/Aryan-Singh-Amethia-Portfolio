@@ -6,6 +6,7 @@ import Dailogue from '@/components/about/dialogue'
 import SkillsCarousel from '@/components/skills-carousel/skills-carousel'
 import { isMobile } from 'react-device-detect'
 import HeroBanner from '@/components/hero/HeroBanner'
+import NewHero from '@/components/hero/NewHero'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -29,8 +30,8 @@ export default function Home() {
     //    <SkillsCarousel/>
     //    {/* <SkillWheel/> */}
     // </Fragment> 
-    <Fragment>
-      
-    </Fragment>
+    <div className='home_container'>
+        <NewHero/>
+    </div>
   );
 }
