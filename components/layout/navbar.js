@@ -6,7 +6,7 @@ import Drawer from "./drawer";
 
 const Navbar = () => {
 
-  const socials = ['github','leetcode.png','linkedin','instagram'];
+  const socials = ['github','linkedin','instagram'];
 
   return (
     <header className={classes.navbar_container}>

@@ -1,21 +1,22 @@
 .newhero_container{
-   display: flex;
+   /* display: flex;
    align-items: center;
-   justify-content: center;
+   justify-content: center; */
 }
 
 .newhero_frame{
-    border: 5px dashed black;
+    /* border: 5px dashed black; */
     background-color: white;
-    border-radius: 2em;
+    border-radius: 5%;
     width: 30vw;
-    height: 35vw;
-    margin:0.7em 0 0 10em;
+    height: 40vw;
     position: relative;
-    padding: 5em;
+    margin: 3em 0 0 3em;
+    padding: 159px;
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.9); 
 }
 
 @media (width <=768px) {
