@@ -1,11 +1,5 @@
 import { Inter } from 'next/font/google'
-import { Fragment } from 'react'
-import Hero from '@/components/hero/hero.js'
 import About from   '@/components/about/about'
-import Dailogue from '@/components/about/dialogue'
-import SkillsCarousel from '@/components/skills-carousel/skills-carousel'
-import { isMobile } from 'react-device-detect'
-import HeroBanner from '@/components/hero/HeroBanner'
 import NewHero from '@/components/hero/NewHero'
 import RotatingLogo from '@/components/rotatingLogo/rotatingLogo'
 
@@ -34,6 +28,7 @@ export default function Home() {
     <div className='home_container'>
         <RotatingLogo/>
         <NewHero/>
+        <About/>
     </div>
   );
 }

@@ -3,7 +3,7 @@ import styles from "./rotatingLogo.module.css";
 
 const RotatingLogo = ()=>{
 
-    const myIntro = 'Aryan Singh Amethia-UI/UX | Frontend . ';
+    const myIntro = 'UI/UX | Web Frontend . Full-Stack Dev ';
 
    return(
     <div className={styles.body}>

@@ -3,6 +3,7 @@ import classes from "./navbar.module.css";
 import Image from "next/image";
 import dynamic from "next/dynamic";
 import Drawer from "./drawer";
+import { style } from "@mui/system";
 
 const Navbar = () => {
 
@@ -31,9 +32,17 @@ const Navbar = () => {
              height={200}
              />
         </div> */}
+        <div className={classes.navbar_signature_icon}>
+          <svg width='100' height='100'>
+            <circle cx='50' cy='50' r='27' stroke-width='0' fill='black' />
+            <text x="40" y="61" font-family="Arial" font-size="30" fill="white">
+               A
+            </text>
+          </svg>
+        </div>
         <div className={classes.navbar_socials_container}>           
            {socials.map(social=>(
-            <div className={classes.navbar_social_container}>
+            <div className={classes.navbar_social_container} key={social}>
               <Image src={`/${social.includes('png')?social:social+'.svg'}`} alt={social} fill={true} objectFit="contain"/>
            </div>
            ))} 
